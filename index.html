@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Booking App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Booking App</h1>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required>
+
+            <button onclick="submitBooking()">Submit</button>
+        </form>
+
+        <div id="bookingList">
+            <!-- <label for="name"></label>
+            <input type="text" name="name" id="name">
+    
+            <label for="email"></label>
+            <input type="text" name="email" id="email">
+    
+            <label for="phone"></label>
+            <input type="text" name="phone" id="phone"> -->
+        </div>
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
